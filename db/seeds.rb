@@ -12,5 +12,5 @@ description:
   out there. If you need to get working programs delivered fast,
   you should add Ruby to your toolbox.
  </p>},
-image_url: 'ruby.jpg',
+image_url: 'rails.jpg',
 price: 49.95)
