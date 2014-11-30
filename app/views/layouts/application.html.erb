@@ -19,7 +19,10 @@
             <li><a href="">Home</a></li>
             <li><a href="">Questions</a></li>
             <li><a href="">News</a></li>
-            <li><a href="">Contact</a></li>
+              <li><%= link_to products_path, {:style => "color:red"} do %>
+                <%=image_tag "products_logo.jpg"%>
+                <%end%>
+              </li>
           </ul>
         </div>
 

@@ -11,6 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require_self
  */
 
 #banner {
@@ -35,7 +36,7 @@
 }
 
 #columns {
-  background: #F5FFFA;
+  background: #141;
   #main {
     margin-left: 17em;
     padding: 1em;
