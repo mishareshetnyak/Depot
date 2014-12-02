@@ -5,6 +5,7 @@ class Product < ActiveRecord::Base
   end
   before_destroy :ensure_not_referenced_by_any_line_item
   private
+  has_many :line_items
   def ensure_not_referenced_by_any_line_item
     if line_items.empty?
       return true
